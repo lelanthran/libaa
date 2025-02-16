@@ -13,10 +13,10 @@
 //
 // Either way, no memory errors are going to be generated.
 #define AVG_ALLOC       ((size_t)(32))
-#define PAGE_SIZE       ((size_t)(AVG_ALLOC * 100))
+#define PAGE_SIZE       ((size_t)(AVG_ALLOC * 10000))
 
 // Number of tests we are going to run
-#define NALLOCS         ((size_t)64)
+#define NALLOCS         ((size_t)64 * 1000)
 
 int main(void)
 {
